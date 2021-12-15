@@ -1,0 +1,44 @@
+.box-love{
+    background: url('./abc.jpg');
+    background-color: black;
+      width: 1440px;
+    height: 1440px;
+    position: relative;
+    left: 273px;;
+  }
+  .box{
+   position: absolute;
+    top: 12%;
+    left: 39%
+  }
+  button{
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    background:#F98793;
+    color: #fff;
+    outline:none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  button:hover{
+    cursor:pointer;
+    opacity: 0.6;
+  }
+  span{
+     position: absolute;
+    top:8%;
+    left: 40%;
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 30px;
+    color:#1d0202;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .move{
+          transform: translate(-200%, -200% );
+           transition: 0.01s;
+    }
+       
